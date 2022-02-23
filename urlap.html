@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <a  href="index.html">Főoldal</a>
+        <a href="keplink.html">képlink</a>
+        <a href="listak.html">listák</a>
+        <a href="orarend.html">órarend</a>
+        <a href="evszakok.html">Évszakok</a>
+        <a href="urlap.html" class="active" >Űrlap</a>
+      </div>
+     
+    <div class="content">
+        
+        <form name="rendeles">
+            <h1>Dildo</h1>
+            <fieldset>
+                <legend>Vevő adatai:</legend>
+                <p><label>Név: <input type="text" name="nev">
+                        <small>Vezetéknév Keresztnév</small></label></p>
+                <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Dildo mérete</legend>
+                <p><label><input type="radio" name="meret" value="kicsi">kicsi</label></p>
+                <p><label><input type="radio" name="meret" value="nagy">nagy</label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Feltétek</legend>
+                <p><label><input type="checkbox" name="feltet1" value="sonka">müanyag</label></p>
+                <p><label><input type="checkbox" name="feltet2" value="sajt">gumi</label></p>
+                <p><label><input type="checkbox" name="feltet3" value="gomba">vibráló</label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Végezetül</legend>
+                <p><label>mennyiség: <input type="number" name="mennyiseg"> db</label></p>
+                <p><label>egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
+                <p><label>Kért szállítási idő: <input type="time" name="kiszallitas"></label></p>
+                <br>
+                <input type="reset" name="visszaallitas">
+                <input type="submit" name="kuldes">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>OP Copyright © </p>
+    </div>
+</body>
+</html>
